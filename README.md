@@ -8,4 +8,9 @@
 
 
   ２．実行  
-  　　python localLLM_chat.py
+  　　python localLLM_chat.py  
+    
+  ３．表示例  
+  　　![image](https://github.com/user-attachments/assets/934698c2-1171-4be3-a7d9-38e062a908c6)  
+
+  
