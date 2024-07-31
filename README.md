@@ -13,4 +13,6 @@
   ３．表示例  
   　　![image](https://github.com/user-attachments/assets/934698c2-1171-4be3-a7d9-38e062a908c6)  
 
+　４．課題  
+ 　　　日本語の質問への対応能力アップw
   
