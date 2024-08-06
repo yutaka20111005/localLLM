@@ -10,8 +10,9 @@
   ２．実行  
   　　python localLLM_chat.py  
     
-  ３．表示例  
-  　　![image](https://github.com/user-attachments/assets/934698c2-1171-4be3-a7d9-38e062a908c6)  
+  ３．表示例 （色をつけました）  
+  　　![image](https://github.com/user-attachments/assets/29c7a37c-c8dd-45b3-a711-242f21e0f368)
+ 
 
 　４．課題  
  　　　日本語の質問への対応能力アップw、及び質問文章のレベルアップも含め。
