@@ -44,9 +44,14 @@ llm = Llama(
 root = tkinter.Tk()     
 root.geometry("1200x480")
 root.title("ローカルLLM「Tiny Llama」チャットアプリ(PC上での使用を想定)")
+root.resizable(False, False)
+
+canvas = tkinter.Canvas(root, width=1200, height=480, bg="skyblue")
+canvas.pack()
+
 fontsize = fonts = ("", 16)
 
-lab_q = tkinter.Label(root, text='質問入力欄', font=fontsize) 
+lab_q = tkinter.Label(root, text='質問入力欄', font=fontsize, bg='skyblue') 
 lab_q.place(x=30, y=10, width=1000, height=20)
 lab_a = tkinter.Label(root, text='AIからの回答', font=fontsize)
 lab_a.place(x=30, y=240, width=1000, height=20)
@@ -57,7 +62,7 @@ ent_a = tkinter.Text(root, font=fontsize)
 ent_a.place(x=8, y=240, width=1280, height=230)
 ent_q.insert(tkinter.END, "何でも尋ねてください。(^^)/~")
 
-btn = tkinter.Button(root, text='AIに尋ねてみる', font=fontsize)
+btn = tkinter.Button(root, text='AIに尋ねてみる', font=fontsize, bg='yellow')
 btn.place(x=500, y=170, width=280, height=60)
 btn.bind("<Button-1>", button_click)
 
@@ -67,3 +72,4 @@ thread.deamon = True
 thread.start()
 
 root.mainloop()
+
